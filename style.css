@@ -1,0 +1,217 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at 20% 30%, #1b004b, #090013 80%);
+  color: #e0e0ff;
+  overflow-x: hidden;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.4em;
+}
+.logo span {
+  color: #ff6fff;
+}
+
+.navbar nav a {
+  color: #ccc;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.navbar nav a.active {
+  color: #ff77ff;
+}
+
+/* ===== HERO ===== */
+.hero {
+  text-align: center;
+  padding: 120px 10%;
+}
+.hero h2 {
+  letter-spacing: 2px;
+  font-size: 1.1em;
+  color: #89f0ff;
+}
+.hero h1 {
+  font-size: 2.6em;
+  margin: 12px 0;
+}
+.hero p {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px 0;
+}
+.stats div h3 {
+  color: #ff84e8;
+  font-size: 1.8em;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.btn {
+  padding: 12px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  border: 1px solid #777;
+  color: #fff;
+  transition: 0.3s;
+}
+.btn.primary {
+  background: linear-gradient(45deg, #ff5af0, #00f0ff);
+  border: none;
+}
+.btn:hover {
+  opacity: 0.85;
+}
+
+/* ===== QUANTUM ===== */
+.quantum {
+  padding: 100px 10%;
+  background: rgba(255,255,255,0.03);
+  backdrop-filter: blur(20px);
+  text-align: center;
+}
+.quantum h2 {
+  color: #00e5ff;
+  margin-bottom: 40px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.card {
+  background: rgba(255,255,255,0.05);
+  border-radius: 16px;
+  padding: 30px;
+  width: 260px;
+  box-shadow: 0 0 15px rgba(0,255,255,0.2);
+}
+.card h3 {
+  color: #ff7fff;
+  margin-bottom: 10px;
+}
+
+/* ===== TIMELINE ===== */
+.timeline {
+  padding: 100px 10%;
+  text-align: center;
+}
+.timeline h2 {
+  color: #00d9ff;
+  margin-bottom: 60px;
+}
+.line {
+  width: 2px;
+  height: 100px;
+  background: #ff7eff;
+  margin: 0 auto 40px;
+}
+.milestone {
+  margin-bottom: 40px;
+}
+.milestone h4 {
+  color: #77ffff;
+}
+
+/* ===== PROTOCOLS ===== */
+.protocols {
+  padding: 100px 10%;
+  text-align: center;
+  background: rgba(255,255,255,0.04);
+}
+.protocols h2 {
+  color: #00ffff;
+  margin-bottom: 40px;
+}
+.protocol-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.protocol {
+  padding: 20px 30px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 10px;
+  color: #ffbfff;
+  box-shadow: 0 0 10px rgba(255,0,255,0.2);
+}
+
+/* ===== CONNECT ===== */
+.connect {
+  padding: 100px 10%;
+  text-align: center;
+}
+.connect h2 {
+  color: #00e5ff;
+  margin-bottom: 40px;
+}
+.connect-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.text {
+  max-width: 400px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 300px;
+}
+input, textarea {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 8px;
+}
+textarea {
+  min-height: 100px;
+}
+button.btn.primary {
+  margin-top: 10px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #aaa;
+  background: rgba(0,0,0,0.3);
+}
