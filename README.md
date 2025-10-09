@@ -1,2 +1,2 @@
 # NEURAL-GAS
-https://omi-das.github.io/NEURAL-GAS/
+ https://omi-das.github.io/NEURAL-GASomi/
